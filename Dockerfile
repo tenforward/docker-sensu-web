@@ -10,5 +10,5 @@ RUN apk add git && \
     yarn install --modules-folder /opt/sensu/yarn/node_modules
 
 ENV NODE_ENV=production
-ENV PORT=5000
-EXPOSE 5000
+ENV PORT=3000
+EXPOSE 3000
